@@ -2,7 +2,7 @@
 
 ## Proyecto
 - SpringBoot framework 
-- Java 11.0.4
+- Java 11.0.10
 - PostgreSQL 14.2
 - Spring Security y Spring Session
 
@@ -18,7 +18,7 @@
 - _Instalar docker compose_
 
 1. Clonar repositorio
-2. Ejecutar servicio en consola los comandos ``./mvnw clean package -DskipTests=true`` && ``docker-compose up --build``
+2. Ejecutar servicio en consola con los comandos ``./mvnw clean package -DskipTests=true`` && ``docker-compose up --build``
 
 ### Uso 
 #### Postman

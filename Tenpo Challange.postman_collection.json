@@ -72,13 +72,13 @@
 				"header": [
 					{
 						"key": "X-Auth-Token",
-						"value": "ca1a4820-fa25-46db-a47c-3c8b88be9103",
+						"value": "bac75cf9-462d-48fc-92f1-369bbae400c0",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"num1\": 150,\n  \"num2\": 75\n}",
+					"raw": "{\n  \"operator1\": 75,\n  \"operator2\": 75\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -107,7 +107,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/v1/operation/findAll?page=1&pageSize=5",
+					"raw": "http://localhost:8080/v1/operation/findAll?page=1&page_size=15",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -124,8 +124,8 @@
 							"value": "1"
 						},
 						{
-							"key": "pageSize",
-							"value": "5"
+							"key": "page_size",
+							"value": "15"
 						}
 					]
 				}
@@ -139,7 +139,7 @@
 				"header": [
 					{
 						"key": "X-Auth-Token",
-						"value": "54af2952-1cc2-45fd-ba77-eee6b967c778",
+						"value": "1f55aed3-861c-41b3-95c7-e701e852f703",
 						"type": "text"
 					}
 				],
