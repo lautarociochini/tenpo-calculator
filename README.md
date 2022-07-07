@@ -18,7 +18,10 @@
 - _Instalar docker compose_
 
 1. Clonar repositorio
-2. Ejecutar servicio en consola con los comandos ``./mvnw clean package -DskipTests=true`` && ``docker-compose up --build``
+2. Ejecutar servicio en consola los comandos
+  - ``./mvnw clean package -DskipTests=true``
+    - _si arroja problema de permisos, ejecutar ``chmod 755 mvnw``_
+  - ``docker-compose up --build``
 
 ### Uso 
 #### Postman
